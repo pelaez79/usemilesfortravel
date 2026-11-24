@@ -1,0 +1,901 @@
+{
+ "verificado": "2026-11-24",
+ "socios": {
+  "aerclub": {
+   "nombre": "Aer Lingus AerClub",
+   "tipo": "Aerolínea",
+   "alianza": "Independiente (moneda Avios)",
+   "uso": "Vuelos de Aer Lingus entre Estados Unidos e Irlanda. Sus puntos son Avios y se pueden mover a los demás programas Avios."
+  },
+  "aeroplan": {
+   "nombre": "Air Canada Aeroplan",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Reserva vuelos de Air Canada y de toda la red Star Alliance, incluida United, desde una sola cuenta."
+  },
+  "flying-blue": {
+   "nombre": "Air France-KLM Flying Blue",
+   "tipo": "Aerolínea",
+   "alianza": "SkyTeam",
+   "uso": "La puerta a Europa con Air France y KLM. Cada mes publica ofertas Promo Rewards con descuento en millas."
+  },
+  "british-avios": {
+   "nombre": "British Airways Club (Avios)",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "Muy útil para vuelos cortos dentro de EE. UU. con American y Alaska pagados con Avios. Los Avios se mueven 1:1 entre British Airways, Iberia, Qatar, Aer Lingus y Finnair."
+  },
+  "iberia-avios": {
+   "nombre": "Iberia Club (Avios)",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "La ruta natural a Madrid y España desde la costa este de EE. UU. Comparte la moneda Avios con British Airways y Qatar."
+  },
+  "cathay": {
+   "nombre": "Cathay Pacific Asia Miles",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "Asia vía Hong Kong con Cathay Pacific y los socios de oneworld."
+  },
+  "qantas": {
+   "nombre": "Qantas Frequent Flyer",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "Australia y el Pacífico con Qantas y los socios de oneworld."
+  },
+  "qatar": {
+   "nombre": "Qatar Airways Privilege Club (Avios)",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "Usa Avios: sirve para reservar los vuelos de Qatar Airways y de socios oneworld como American Airlines."
+  },
+  "jal": {
+   "nombre": "Japan Airlines Mileage Bank",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "Japón con Japan Airlines y los socios de oneworld."
+  },
+  "finnair": {
+   "nombre": "Finnair Plus (Avios)",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "El norte de Europa vía Helsinki. También usa Avios."
+  },
+  "aadvantage": {
+   "nombre": "American Airlines AAdvantage",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "La red de American Airlines en EE. UU. y América Latina. Entre los bancos grandes, solo Citi transfiere directo a AAdvantage."
+  },
+  "mileageplus": {
+   "nombre": "United MileagePlus",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "La red de United en EE. UU. y sus socios de Star Alliance en todo el mundo."
+  },
+  "skymiles": {
+   "nombre": "Delta SkyMiles",
+   "tipo": "Aerolínea",
+   "alianza": "SkyTeam",
+   "uso": "Vuelos de Delta y de los socios SkyTeam. Entre los bancos grandes, solo American Express transfiere directo a SkyMiles."
+  },
+  "trueblue": {
+   "nombre": "JetBlue TrueBlue",
+   "tipo": "Aerolínea",
+   "alianza": "Independiente",
+   "uso": "JetBlue: la costa este de EE. UU., el Caribe y sus rutas a Europa."
+  },
+  "southwest": {
+   "nombre": "Southwest Rapid Rewards",
+   "tipo": "Aerolínea",
+   "alianza": "Independiente",
+   "uso": "Vuelos domésticos de Southwest. El valor de sus puntos por vuelo es bastante estable."
+  },
+  "lifemiles": {
+   "nombre": "Avianca LifeMiles",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "La ruta a Colombia y Centroamérica con Avianca, y a toda la red Star Alliance."
+  },
+  "aeromexico": {
+   "nombre": "Aeromexico Rewards",
+   "tipo": "Aerolínea",
+   "alianza": "SkyTeam",
+   "uso": "México con Aeromexico y los socios de SkyTeam."
+  },
+  "connectmiles": {
+   "nombre": "Copa Airlines ConnectMiles",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "El centro de conexiones de Copa en Panamá: de ahí se llega a todo el continente, más los socios de Star Alliance."
+  },
+  "miles-and-smiles": {
+   "nombre": "Turkish Airlines Miles&Smiles",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Una de las redes internacionales más amplias del mundo, vía Estambul, más toda Star Alliance."
+  },
+  "skywards": {
+   "nombre": "Emirates Skywards",
+   "tipo": "Aerolínea",
+   "alianza": "Independiente",
+   "uso": "Emirates vía Dubái. Sin alianza: el valor está en los aviones de la propia Emirates."
+  },
+  "etihad": {
+   "nombre": "Etihad Guest",
+   "tipo": "Aerolínea",
+   "alianza": "Independiente",
+   "uso": "Etihad vía Abu Dabi y sus aerolíneas asociadas."
+  },
+  "eva": {
+   "nombre": "EVA Air Infinity MileageLands",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Taiwán y Asia con EVA Air y los socios de Star Alliance."
+  },
+  "thai": {
+   "nombre": "Thai Airways Royal Orchid Plus",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Tailandia y el sudeste asiático con Thai Airways y los socios de Star Alliance."
+  },
+  "krisflyer": {
+   "nombre": "Singapore Airlines KrisFlyer",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Singapore Airlines y Star Alliance. Es la vía directa a las cabinas premium de Singapore."
+  },
+  "ana": {
+   "nombre": "ANA Mileage Club",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Japón con ANA y los socios de Star Alliance."
+  },
+  "virgin-atlantic": {
+   "nombre": "Virgin Atlantic Flying Club",
+   "tipo": "Aerolínea",
+   "alianza": "SkyTeam",
+   "uso": "Los puntos Virgin sirven para vuelos de la propia Virgin Atlantic y de socios como Delta y Air France-KLM."
+  },
+  "tap": {
+   "nombre": "TAP Air Portugal Miles&Go",
+   "tipo": "Aerolínea",
+   "alianza": "Star Alliance",
+   "uso": "Portugal y Europa vía Lisboa con TAP y los socios de Star Alliance."
+  },
+  "atmos": {
+   "nombre": "Atmos Rewards (Alaska + Hawaiian)",
+   "tipo": "Aerolínea",
+   "alianza": "oneworld",
+   "uso": "El programa combinado de Alaska Airlines y Hawaiian Airlines: vuelos de ambas y de los socios oneworld."
+  },
+  "hyatt": {
+   "nombre": "World of Hyatt",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles Hyatt. Ojo con las proporciones: la de Chase depende de la tarjeta y la de Bilt baja a 4:3 el 1 de enero de 2027."
+  },
+  "marriott": {
+   "nombre": "Marriott Bonvoy",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Una de las redes hoteleras más grandes del mundo. En estancias pagadas con puntos, la quinta noche sale gratis según las reglas del programa."
+  },
+  "hilton": {
+   "nombre": "Hilton Honors",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles Hilton. Desde American Express la conversión es 1:2: el doble de puntos Hilton por cada punto bancario."
+  },
+  "ihg": {
+   "nombre": "IHG One Rewards",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles del grupo IHG: Holiday Inn, InterContinental, Crowne Plaza y más marcas."
+  },
+  "choice": {
+   "nombre": "Choice Privileges",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles Choice (Comfort, Quality Inn y más), fuertes en carretera y ciudades pequeñas de EE. UU."
+  },
+  "wyndham": {
+   "nombre": "Wyndham Rewards",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles Wyndham. Sus canjes usan precios en puntos por niveles según el hotel."
+  },
+  "accor": {
+   "nombre": "Accor Live Limitless (ALL)",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Los hoteles Accor, fuertes en Europa. Sus puntos valen como dinero: 2,000 puntos equivalen a 40 € de descuento, según publica la propia Accor."
+  },
+  "lhw": {
+   "nombre": "Leaders Club (The Leading Hotels of the World)",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Hoteles de lujo independientes del consorcio The Leading Hotels of the World."
+  },
+  "i-prefer": {
+   "nombre": "I Prefer Hotel Rewards",
+   "tipo": "Hotel",
+   "alianza": "—",
+   "uso": "Hoteles independientes de la red Preferred Hotels & Resorts."
+  },
+  "amtrak": {
+   "nombre": "Amtrak Guest Rewards",
+   "tipo": "Tren",
+   "alianza": "—",
+   "uso": "Trenes de Amtrak en EE. UU. Solo Bilt transfiere a este programa."
+  }
+ },
+ "programas": [
+  {
+   "slug": "chase-ultimate-rewards",
+   "nombre": "Chase Ultimate Rewards",
+   "minimo": "Mínimo 1,000 puntos por transferencia, en bloques de 1,000.",
+   "notas": [
+    "Solo las tarjetas con acceso a socios transfieren: Sapphire Preferred, Sapphire Reserve e Ink Business Preferred, entre otras.",
+    "World of Hyatt es la excepción a la regla del 1:1: con Sapphire Reserve convierte 1:1 y con las demás tarjetas elegibles, 4:3.",
+    "Emirates dejó de ser socio de Chase en octubre de 2025."
+   ],
+   "aerolineas": [
+    [
+     "aerclub",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "aeroplan",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "british-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "iberia-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "trueblue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qantas",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "krisflyer",
+     "1:1",
+     "1–2 días"
+    ],
+    [
+     "southwest",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "mileageplus",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "ihg",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "marriott",
+     "1:1",
+     "Hasta 3 días"
+    ],
+    [
+     "hyatt",
+     "1:1 ó 4:3 según la tarjeta",
+     "Instantáneo"
+    ],
+    [
+     "wyndham",
+     "1:1",
+     "Instantáneo"
+    ]
+   ]
+  },
+  {
+   "slug": "amex-membership-rewards",
+   "nombre": "American Express Membership Rewards",
+   "minimo": "Mínimo 1,000 puntos por transferencia, salvo JetBlue (250) y Qantas (500).",
+   "notas": [
+    "Al transferir a aerolíneas de EE. UU. (Delta, JetBlue), Amex cobra una tarifa de $0.0006 por punto, con un tope de $99 por transferencia.",
+    "En marzo de 2026 la proporción a Cathay Pacific bajó de 1:1 a 5:4; la de Emirates bajó a 5:4 en septiembre de 2025."
+   ],
+   "aerolineas": [
+    [
+     "aerclub",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "aeromexico",
+     "1:1.6",
+     "≈24 horas"
+    ],
+    [
+     "aeroplan",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "ana",
+     "1:1",
+     "≈48 horas"
+    ],
+    [
+     "lifemiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "british-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "5:4",
+     "≈48 horas"
+    ],
+    [
+     "skymiles",
+     "1:1",
+     "Hasta 48 horas"
+    ],
+    [
+     "skywards",
+     "5:4",
+     "Instantáneo"
+    ],
+    [
+     "iberia-avios",
+     "1:1",
+     "≈48 horas"
+    ],
+    [
+     "trueblue",
+     "5:4",
+     "Instantáneo"
+    ],
+    [
+     "qantas",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qatar",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "krisflyer",
+     "1:1",
+     "≈24 horas"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "choice",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "hilton",
+     "1:2",
+     "Instantáneo"
+    ],
+    [
+     "lhw",
+     "4:1",
+     "Hasta 72 horas"
+    ],
+    [
+     "marriott",
+     "1:1",
+     "Instantáneo"
+    ]
+   ]
+  },
+  {
+   "slug": "capital-one",
+   "nombre": "Capital One Miles",
+   "minimo": "Mínimo 1,000 millas por transferencia.",
+   "notas": [
+    "Copa Airlines ConnectMiles se sumó el 2 de noviembre de 2026: es el socio más nuevo del programa.",
+    "Emirates bajó de 1:1 a 2:1.5 en enero de 2026.",
+    "Capital One no publica tiempos de transferencia; los tiempos de esta página son los reportados habitualmente por los usuarios y la prensa especializada.",
+    "A Virgin Atlantic se llega vía Virgin Red, su programa hermano."
+   ],
+   "aerolineas": [
+    [
+     "aeromexico",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "aeroplan",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "lifemiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "british-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "1:1",
+     "1–2 días"
+    ],
+    [
+     "etihad",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "finnair",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qantas",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qatar",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "krisflyer",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "tap",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "miles-and-smiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "connectmiles",
+     "2:1.5",
+     "Sin reportes aún"
+    ],
+    [
+     "skywards",
+     "2:1.5",
+     "Instantáneo"
+    ],
+    [
+     "eva",
+     "2:1.5",
+     "1–2 días"
+    ],
+    [
+     "jal",
+     "2:1.5",
+     "Instantáneo"
+    ],
+    [
+     "trueblue",
+     "5:3",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "choice",
+     "1:1",
+     "≈24 horas"
+    ],
+    [
+     "wyndham",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "i-prefer",
+     "1:2",
+     "Instantáneo"
+    ],
+    [
+     "accor",
+     "2:1",
+     "≈2 días laborables"
+    ]
+   ]
+  },
+  {
+   "slug": "citi-thankyou",
+   "nombre": "Citi ThankYou Points",
+   "minimo": "Transferencias en bloques de 1,000 puntos.",
+   "notas": [
+    "Las proporciones de esta tabla son las de las tarjetas Strata Premier y Strata Elite. Con tarjetas sin cuota anual (Strata, Double Cash, Custom Cash) recibes cerca del 70%: la mayoría convierte 10:7, Emirates 1:0.56, Choice 1:1.05, I Prefer 1:1.4, Accor 2:0.7 y Leaders Club 5:0.7.",
+    "Citi es el único banco grande que transfiere directo a American Airlines AAdvantage (sociedad permanente desde julio de 2025), y ese socio exige una tarjeta Strata."
+   ],
+   "aerolineas": [
+    [
+     "aadvantage",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "lifemiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "connectmiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "skywards",
+     "5:4",
+     "Instantáneo"
+    ],
+    [
+     "etihad",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "eva",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "jal",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "trueblue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qantas",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qatar",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "krisflyer",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "thai",
+     "1:1",
+     "Hasta 7 días"
+    ],
+    [
+     "miles-and-smiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "accor",
+     "2:1",
+     "Instantáneo"
+    ],
+    [
+     "choice",
+     "1:1.5",
+     "Instantáneo"
+    ],
+    [
+     "lhw",
+     "5:1",
+     "Instantáneo"
+    ],
+    [
+     "i-prefer",
+     "1:2",
+     "Instantáneo"
+    ],
+    [
+     "wyndham",
+     "1:1",
+     "Instantáneo"
+    ]
+   ]
+  },
+  {
+   "slug": "bilt-rewards",
+   "nombre": "Bilt Rewards",
+   "minimo": "Bloques de 1,000 puntos. Mínimo por transferencia: 2,000 puntos si tu nivel es Blue; 1,000 si es Silver, Gold o Platinum.",
+   "notas": [
+    "Es el programa que se gana pagando el alquiler de la vivienda.",
+    "Anunciado: la transferencia a World of Hyatt baja de 1:1 a 4:3 el 1 de enero de 2027.",
+    "Casi todas las transferencias son instantáneas; la de Southwest puede tardar hasta 72 horas, según lo reportado.",
+    "Lista de socios según la página oficial de soporte de Bilt, revisada en noviembre de 2026."
+   ],
+   "aerolineas": [
+    [
+     "atmos",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "lifemiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "mileageplus",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "trueblue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "skywards",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "british-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "miles-and-smiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "aerclub",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "iberia-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "aeroplan",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "tap",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "southwest",
+     "1:1",
+     "Hasta 72 horas"
+    ],
+    [
+     "jal",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "qatar",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "etihad",
+     "1:1",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "hilton",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "marriott",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "hyatt",
+     "1:1 (4:3 desde el 1-ene-2027)",
+     "Instantáneo"
+    ],
+    [
+     "ihg",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "accor",
+     "3:2",
+     "Instantáneo"
+    ],
+    [
+     "wyndham",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "i-prefer",
+     "1:2",
+     "Instantáneo"
+    ]
+   ],
+   "otros": [
+    [
+     "amtrak",
+     "2:1",
+     "Instantáneo"
+    ]
+   ]
+  },
+  {
+   "slug": "wells-fargo-rewards",
+   "nombre": "Wells Fargo Rewards",
+   "minimo": "Sin mínimo: puedes transferir la cantidad que quieras.",
+   "notas": [
+    "Solo las tarjetas Autograph y Autograph Journey acumulan puntos transferibles a socios, y ambas llegan a la misma lista.",
+    "Cathay Pacific se sumó en abril de 2026.",
+    "No transfiere directo a United, American ni Delta: a esos vuelos se llega por los socios de alianza (LifeMiles, Avios y Flying Blue)."
+   ],
+   "aerolineas": [
+    [
+     "aerclub",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "lifemiles",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "cathay",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "flying-blue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "iberia-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "trueblue",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "british-avios",
+     "1:1",
+     "Instantáneo"
+    ],
+    [
+     "virgin-atlantic",
+     "1:1",
+     "Instantáneo"
+    ]
+   ],
+   "hoteles": [
+    [
+     "choice",
+     "1:2",
+     "Instantáneo"
+    ],
+    [
+     "wyndham",
+     "1:2",
+     "Instantáneo"
+    ]
+   ]
+  }
+ ]
+}

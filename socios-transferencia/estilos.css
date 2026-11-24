@@ -1,0 +1,39 @@
+:root{
+--fondo:#f6f3ec;--superficie:#ffffff;--tinta:#1d2732;--suave:#5b6773;--borde:#ddd5c2;
+--primario:#0f3b57;--primario-osc:#0a2a3f;--acento:#e8a33d;--acento-suave:#fdf3e0;--ok:#0b6e4f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--tinta);font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.55;font-size:17px}
+a{color:var(--primario)}
+header.banda{background:var(--primario);color:#fff;padding:2.2rem 1rem 1.8rem}
+.contenedor{max-width:1060px;margin:0 auto;padding:0 1rem}
+header.banda .marca{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acento);font-weight:700}
+header.banda h1{margin:.35rem 0 .5rem;font-size:2rem;line-height:1.2}
+header.banda p{margin:0;color:#d7e3ec;max-width:46rem}
+nav.migas{font-size:.9rem;color:var(--suave);padding:.9rem 0 0}
+nav.migas a{color:var(--suave)}
+main{padding:1.2rem 0 2.5rem}
+h2{font-size:1.35rem;margin:1.8rem 0 .6rem;color:var(--primario-osc)}
+h3{font-size:1.1rem;margin:1.4rem 0 .4rem}
+.tarjetas{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1rem 0}
+.tarjeta{background:var(--superficie);border:1px solid var(--borde);border-radius:10px;padding:1rem 1.1rem}
+.tarjeta h3{margin-top:0}
+.tarjeta p{margin:.3rem 0;color:var(--suave);font-size:.95rem}
+.tarjeta a{font-weight:700;text-decoration:none}
+.tarjeta a:hover{text-decoration:underline}
+table{width:100%;border-collapse:collapse;background:var(--superficie);border:1px solid var(--borde);border-radius:10px;overflow:hidden;font-size:.95rem}
+th,td{padding:.55rem .7rem;border-bottom:1px solid var(--borde);text-align:left;vertical-align:top}
+thead th{background:var(--primario);color:#fff;font-weight:600}
+tbody tr:nth-child(even){background:#faf8f2}
+td.ratio{font-weight:700;white-space:nowrap}
+td.ausente{color:#b6ad97;text-align:center}
+.aviso{background:var(--acento-suave);border:1px solid var(--acento);border-radius:10px;padding:.9rem 1.1rem;margin:1.2rem 0}
+.aviso p{margin:.3rem 0}
+.nota{color:var(--suave);font-size:.92rem}
+ul.notas li{margin:.35rem 0}
+.matriz{overflow-x:auto}
+.matriz td,.matriz th{text-align:center}
+.matriz td:first-child,.matriz th:first-child{text-align:left}
+footer{background:var(--primario-osc);color:#c9d6df;padding:1.8rem 1rem;font-size:.92rem}
+footer a{color:var(--acento)}
+footer p{max-width:1060px;margin:.4rem auto}
+.etiqueta{display:inline-block;background:var(--acento-suave);border:1px solid var(--acento);color:#7a5410;border-radius:999px;padding:.05rem .6rem;font-size:.8rem;font-weight:700;margin-left:.5rem;vertical-align:middle}
